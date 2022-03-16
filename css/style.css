@@ -1,0 +1,61 @@
+#home div.col-lg-5.bg-secondary {
+    height: 400px;
+}
+
+#contact-tiff-sign {
+    display: none;
+}
+
+nav,
+h4.card-title {
+    font-family: 'Open Sans';
+}
+
+.text-shadow {
+    text-shadow: 2px 2px #8f8f8f;
+}
+
+.navbar-nav .nav-item a.active {
+    color: #03989e !important;
+}
+
+.float {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 40px;
+    background-color: #25d366;
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 100;
+}
+
+.my-float {
+    margin-top: 16px;
+}
+
+#services {
+    background-color: #f2f2f3;
+}
+
+#services div.card {
+    box-shadow: -1px 20px 51px -6px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: -1px 20px 51px -6px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -1px 20px 51px -6px rgba(0, 0, 0, 0.75);
+}
+
+.sosmed {
+    width: 2em;
+    height: 2em;
+}
+
+
+@media (min-width:992px) {
+    #home div.col-lg-5.bg-secondary {
+        height: auto;
+    }
+}
